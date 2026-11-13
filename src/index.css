@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=DM+Serif+Display:ital@0;1&display=swap");
 @import "tailwindcss";
 
+@utility flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @theme {
   --color-app-green: #1b3022;
   --color-app-green-light: #2d4a35;
