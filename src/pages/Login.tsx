@@ -123,6 +123,7 @@ const Login = () => {
             </label>
             <button
               type="submit"
+              disabled={loading}
               className="flex-center w-full py-3 bg-green-900 text-white font-semibold rounded-xl hover:bg-green-700 transition-colors disabled:opacity-40"
             >
               {loading ? (
