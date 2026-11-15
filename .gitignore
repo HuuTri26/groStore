@@ -13,6 +13,9 @@ dist-ssr
 *.local
 .env
 
+#assets
+grocery-assets
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
